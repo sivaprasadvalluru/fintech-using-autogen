@@ -80,6 +80,57 @@ This document outlines the various use cases, agent interactions, and team struc
 - Market Data Analysis
 - Visualization Generation
 
+## System Architecture Overview
+
+The Fintech-AutoGen system consists of the following layers:
+
+1. **User Input Layer:** Users interact with the system by running scripts or command-line commands (e.g., via `main.py`).
+2. **Orchestration Layer (GraphFlow):** The `master_orchestrator.py` receives user queries, detects intent, and routes requests to the appropriate team or agent.
+3. **Teams & Agents:** Teams (e.g., Portfolio Optimization Team) coordinate multiple agents (e.g., Portfolio Manager, Market Analyst) to process complex tasks.
+4. **Tools Layer:** Agents use tools (in `tools/`) to access the database, knowledge base, and external APIs.
+5. **Data & Knowledge Layer:** The SQLite database and ChromaDB knowledge base provide structured and unstructured data.
+
+---
+
+## Example User Journey
+
+**Scenario:** A user wants to rebalance their portfolio based on current tech sector trends.
+
+1. **User submits query** by running a script or calling a function in `main.py`:
+   "Given the current tech sector trends, how should I rebalance my portfolio to maximize returns while maintaining moderate risk?"
+
+2. **Orchestration:**  
+   - `master_orchestrator.py` (GraphFlow) analyzes the query, detects the need for portfolio optimization, and routes the request to the Portfolio Optimization Team.
+
+3. **Team Processing:**  
+   - The Portfolio Optimization Team runs the Portfolio Manager, Market Analyst, and Risk Assessment agents in parallel.
+   - Each agent uses relevant tools (e.g., database queries, knowledge base retrieval) to generate insights.
+
+4. **Aggregation:**  
+   - The team aggregates results, synthesizes recommendations, and passes them back to the orchestrator.
+
+5. **Response:**  
+   - The orchestrator returns the final, comprehensive response to the user (printed to console or returned by the script).
+
+---
+
+## Orchestration Logic
+
+- The `master_orchestrator.py` uses intent detection to determine which team or agent should handle a user query.
+- For example, investment education queries are routed to the Financial Education Team, while portfolio optimization queries go to the Portfolio Optimization Team.
+- The orchestration logic is implemented using GraphFlow, which supports both sequential and parallel agent execution.
+
+---
+
+## Tools and Integration
+
+| Tool Name                | File                        | Purpose                                      |
+|--------------------------|-----------------------------|----------------------------------------------|
+| ChromaDB Retrieval       | `tools/kb_tools.py`         | Retrieve knowledge base content              |
+| SQLDatabaseToolkit       | `tools/external_tools.py`   | Query the SQLite database                    |
+| Yahoo Finance API        | `tools/external_tools.py`   | Fetch real-time market data                  |
+| LangChainToolAdapter     | `tools/kb_tools.py`         | Integrate LangChain with ChromaDB            |
+
 ## Complex Use Cases
 
 ### 1. Portfolio Optimization with Market Context
@@ -214,27 +265,10 @@ Flow:
    - Delivers actionable response
 ```
 
-## UI Components
-
-### 1. User Authentication
-- Radio button selection for Admin/User role
-- Email input for user authentication
-- Session management
-
-### 2. Admin Interface
-- Document upload interface for knowledge base
-- ChromaDB ingestion management
-- User management dashboard
-- System monitoring
-
-### 3. User Interface
-- Chat interface with conversation history
-- Portfolio dashboard with visualizations
-- Educational content display
 
 ## Implementation Plan
 
-### Phase 1: Project Setup (COMPLETED)
+### Phase 1: Project Setup 
 1. Project structure created with directories for:
    - Database (SQLite)
    - Knowledge base (ChromaDB)
@@ -257,7 +291,7 @@ Flow:
    - Risk Management Guidelines
 4. Basic configuration files created (requirements.txt, README.md, main.py)
 
-### Phase 2: Tool Development (COMPLETED)
+### Phase 2: Tool Development 
 1. Knowledge retrieval tools (kb_tools.py)
    - LangChain's Chroma integration for vector search
    - Topic-specific knowledge retrieval functions
@@ -281,10 +315,7 @@ Flow:
 3. Market Research Team (MagenticOne)
 4. GraphFlow orchestration
 
-### Phase 5: UI and Integration
-1. Streamlit UI development
-2. End-to-end integration (UI wired to agents/teams via orchestrator)
-3. Documentation and example generation
+
 
 ## Agent Interaction Patterns
 
@@ -320,3 +351,20 @@ User Query -> GraphFlow
             -> Agent/Team Processing
             -> GraphFlow (synthesis) -> User
 ```
+
+## Extensibility
+
+- New agents, teams, or tools can be added by creating new Python modules in the respective directories and registering them in the orchestrator.
+- The system is modular, allowing for easy integration of additional data sources or knowledge bases.
+
+## Error Handling
+
+- Agents and tools include basic error handling to manage issues such as missing data, API failures, or invalid queries.
+- Errors are logged and user-friendly messages are returned to the user via the script or command line.
+
+## Glossary
+
+- **GraphFlow:** The orchestration engine that manages agent and team workflows.
+- **SelectorGroupChat:** A pattern for dynamically selecting agents based on context.
+- **RoundRobinGroupChat:** A pattern for sequentially processing tasks through multiple agents.
+- **MagenticOne:** The research agent/team responsible for web research and real-time data gathering.
