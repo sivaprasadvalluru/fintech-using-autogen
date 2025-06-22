@@ -1,0 +1,13 @@
+The healthcare sector includes companies that provide medical services, manufacture medical equipment or drugs, provide medical insurance, or otherwise facilitate the provision of healthcare to patients.
+Pharmaceutical companies research, develop, produce, and market medications. They can be focused on brand-name drugs, generics, or both.
+Biotechnology companies use cellular and biomolecular processes to develop products that help improve lives. They often focus on novel drug development and clinical research.
+Medical device companies design and manufacture medical equipment for patient diagnosis and treatment.
+Healthcare providers include hospitals, clinics, and other organizations that provide healthcare services to patients.
+Telemedicine uses telecommunications technology to provide healthcare remotely, improving access for patients in rural or underserved areas.
+Health informatics is the acquisition, storage, retrieval, and use of healthcare information to foster better collaboration among a patient's various healthcare providers.
+Genomics is the study of the complete set of DNA (including all of its genes) in a person or other organism, with applications in personalized medicine.
+Wearable health technology includes devices like fitness trackers and smartwatches that monitor health metrics and encourage healthy behaviors.
+Healthcare analytics uses data and statistical methods to improve patient outcomes, optimize costs, and streamline operations in healthcare organizations.
+Regenerative medicine focuses on developing methods to regrow, repair, or replace damaged or diseased cells, organs, or tissues.
+Medical imaging technologies such as MRI, CT scans, and ultrasound are essential for diagnosis and treatment planning.
+Healthcare policy shapes the organization, financing, and delivery of healthcare services, impacting access, quality, and cost.

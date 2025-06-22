@@ -1,0 +1,13 @@
+The financial services sector includes companies that provide economic services including banks, investment companies, insurance companies, and real estate firms.
+Commercial banks accept deposits, make loans, and provide other services to their customers. They make money by charging interest rates on loans that are higher than the interest rates they pay on deposits.
+Investment banks assist companies in raising capital, engaging in mergers and acquisitions, and providing research and financial advisory services.
+Insurance companies protect people and businesses from financial loss by pooling risks. They collect premiums from many clients and pay claims to those who experience a covered event.
+FinTech (Financial Technology) refers to new tech that seeks to improve and automate the delivery and use of financial services. Mobile banking, investing services, and cryptocurrency are examples of technologies aiming to make financial services more accessible.
+Private equity firms invest in private companies or buy out public companies to restructure and eventually sell them for a profit.
+Venture capital is a form of private equity financing provided by investors to startups and small businesses with long-term growth potential.
+Credit unions are member-owned financial cooperatives that provide traditional banking services, often with better rates and lower fees than commercial banks.
+REITs (Real Estate Investment Trusts) are companies that own, operate, or finance income-producing real estate and offer shares to investors.
+Microfinance provides financial services to low-income individuals or those without access to typical banking services.
+Payment processors facilitate transactions between merchants and customers, ensuring the secure transfer of funds.
+Robo-advisors are digital platforms that provide automated, algorithm-driven financial planning services with little to no human supervision.
+The Basel Accords are international banking regulations issued by the Basel Committee on Banking Supervision that set out requirements for capital risk, market risk, and operational risk.

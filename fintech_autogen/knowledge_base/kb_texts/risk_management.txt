@@ -1,0 +1,14 @@
+Portfolio diversification is the practice of spreading investments across various assets, sectors, and geographies to reduce exposure to any single risk. A well-diversified portfolio can minimize the impact of volatility on your overall investments.
+Asset allocation is the process of dividing investments among different asset categories, such as stocks, bonds, and cash. The appropriate asset allocation strategy depends on factors like risk tolerance, time horizon, and financial goals.
+Stop-loss orders are instructions to sell a security when it reaches a certain price, limiting potential losses. They help investors manage risk by automatically exiting positions when predetermined loss thresholds are reached.
+The risk-reward ratio is a measure that compares the potential profit of an investment to its potential loss. A good rule of thumb is to look for investments with a risk-reward ratio of at least 1:3, meaning the potential profit is at least three times the potential loss.
+Hedging involves taking an offsetting position in a related security to reduce the risk of adverse price movements. Common hedging strategies include using options, futures, or investing in negatively correlated assets.
+Position sizing refers to determining the appropriate amount of capital to allocate to a single investment. A common guideline is to risk no more than 1-2% of your portfolio on any single position.
+Risk tolerance is the degree of variability in investment returns that an individual is willing to withstand in their investment portfolio.
+Scenario analysis evaluates the expected value of a portfolio in different situations, such as economic downturns or market rallies.
+Value at Risk (VaR) is a statistical technique used to measure the risk of loss on a portfolio of financial assets.
+Stress testing involves simulating extreme market conditions to assess the resilience of a portfolio or financial institution.
+Rebalancing is the process of realigning the weightings of a portfolio of assets to maintain a desired risk level or asset allocation.
+Insurance as a risk management tool can protect individuals and businesses from significant financial losses due to unforeseen events.
+Counterparty risk is the likelihood that the other party in a transaction may default on their contractual obligation.
+Risk-adjusted return is a concept that refines an investment's return by measuring how much risk is involved in producing that return.

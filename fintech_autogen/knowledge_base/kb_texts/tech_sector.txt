@@ -1,0 +1,14 @@
+The technology sector is comprised of businesses that sell goods and services in electronics, software, computers, artificial intelligence, and other industries related to information technology.
+Cloud computing is the delivery of different services through the Internet, including data storage, servers, databases, networking, and software. It offers faster innovation, flexible resources, and economies of scale.
+Semiconductor companies design and manufacture computer chips and related components. They are crucial suppliers to technology hardware manufacturers.
+SaaS (Software as a Service) is a software licensing and delivery model in which software is licensed on a subscription basis and is centrally hosted. Examples include Microsoft 365, Google Workspace, and Salesforce.
+Artificial Intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems. These processes include learning, reasoning, and self-correction.
+Machine learning is a subset of AI that enables systems to learn and improve from experience without being explicitly programmed.
+Blockchain is a distributed ledger technology that allows data to be stored globally on thousands of servers, making it nearly impossible to alter records retroactively.
+Fintech startups often leverage APIs to connect financial data and services across platforms, enabling innovation in payments, lending, and investing.
+Quantum computing uses quantum-mechanical phenomena to perform computation, potentially solving problems in seconds that would take classical computers millennia.
+Cybersecurity in the tech sector involves protecting systems, networks, and programs from digital attacks, which are increasingly sophisticated and frequent.
+Edge computing brings computation and data storage closer to the sources of data, improving response times and saving bandwidth.
+The Internet of Things (IoT) refers to the network of physical objects embedded with sensors and software to connect and exchange data with other devices and systems over the internet.
+Augmented reality (AR) overlays digital information onto the real world, enhancing user experiences in gaming, retail, and education.
+5G is the fifth generation of mobile network technology, offering faster speeds, lower latency, and more reliable connections for mobile devices.

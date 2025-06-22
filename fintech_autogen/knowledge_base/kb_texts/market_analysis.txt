@@ -1,0 +1,14 @@
+Fundamental analysis involves examining a company's financial statements and economic indicators to determine its intrinsic value. This approach focuses on factors like revenue, earnings, future growth, and return on equity.
+Technical analysis involves evaluating securities based on market activity, such as past prices and volume. Technical analysts believe that historical price patterns tend to repeat themselves.
+Sentiment analysis in market context evaluates investor attitudes and emotions toward specific securities or markets. This can be done through surveys, social media analysis, or monitoring news sentiment.
+SWOT analysis examines a company's Strengths, Weaknesses, Opportunities, and Threats to evaluate its competitive position. This helps investors understand a company's strategic position in its market.
+Porter's Five Forces model analyzes industry competition through five factors: competitive rivalry, supplier power, buyer power, threat of substitution, and threat of new entry. It helps investors understand industry dynamics.
+Economic cycle analysis involves examining where the economy is in its cycle (expansion, peak, contraction, trough) to make investment decisions. Different sectors often perform differently during various economic cycle phases.
+Quantitative analysis uses mathematical and statistical modeling, measurement, and research to understand behavior and make investment decisions.
+Elliott Wave Theory is a technical analysis approach that investors use to analyze financial market cycles and forecast market trends by identifying extremes in investor psychology.
+Candlestick patterns are used in technical analysis to predict future price movements based on historical price data.
+Volume analysis examines the number of shares or contracts traded in a security or market to confirm trends and chart patterns.
+Backtesting is the process of testing a trading strategy on historical data to see how it would have performed.
+Correlation analysis measures the relationship between two securities or asset classes to diversify or hedge a portfolio.
+Market breadth indicators analyze the number of stocks advancing versus declining to gauge the overall direction of the market.
+Sentiment indicators, such as the put/call ratio or volatility index (VIX), help investors assess market mood and potential turning points.
